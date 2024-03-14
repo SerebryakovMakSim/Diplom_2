@@ -1,7 +1,7 @@
 package order;
 
-import Utils.Endpoints;
-import Utils.Specifications;
+import utils.Endpoints;
+import utils.Specifications;
 import data.Order;
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;

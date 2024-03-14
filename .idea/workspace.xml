@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7bbe326-305a-425c-81d9-6212fcb669ac" name="Changes" comment="Второй коммит">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f7bbe326-305a-425c-81d9-6212fcb669ac" name="Changes" comment="Исправлен нейминг покетов" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,14 +46,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/serebryakov/LAST/Diplom_2/src/test/java",
     "last_opened_file_path": "C:/Users/serebryakov/LAST/Diplom_2",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ChangeDataUser">
+  <component name="RunManager" selected="JUnit.CreateOrderTest">
     <configuration name="ChangeDataUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <extension name="coverage">
@@ -73,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChangeDataUser.changeDataUserWithoutAuthorization" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <extension name="coverage">
         <pattern>
@@ -82,29 +80,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="user" />
-      <option name="MAIN_CLASS_NAME" value="user.ChangeDataUser" />
-      <option name="METHOD_NAME" value="changeDataUserWithoutAuthorization" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Diplom_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="user" />
-      <option name="MAIN_CLASS_NAME" value="user.LoginUserTest" />
+      <option name="MAIN_CLASS_NAME" value="user.CreateOrderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginUserTest.loginUserWithWrongEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <extension name="coverage">
         <pattern>
@@ -113,14 +95,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="user" />
-      <option name="MAIN_CLASS_NAME" value="user.LoginUserTest" />
-      <option name="METHOD_NAME" value="loginUserWithWrongEmail" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="user.CreateUserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginUserTest.loginUserWithWrongPass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Diplom_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="user" />
+      <option name="MAIN_CLASS_NAME" value="user.GetOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginUserTest.loginUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom_2" />
       <extension name="coverage">
         <pattern>
@@ -130,7 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="user" />
       <option name="MAIN_CLASS_NAME" value="user.LoginUserTest" />
-      <option name="METHOD_NAME" value="loginUserWithWrongPass" />
+      <option name="METHOD_NAME" value="loginUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreateOrderTest" />
+        <item itemvalue="JUnit.LoginUserTest.loginUser" />
+        <item itemvalue="JUnit.CreateUserTest" />
         <item itemvalue="JUnit.ChangeDataUser" />
-        <item itemvalue="JUnit.ChangeDataUser.changeDataUserWithoutAuthorization" />
-        <item itemvalue="JUnit.LoginUserTest" />
-        <item itemvalue="JUnit.LoginUserTest.loginUserWithWrongPass" />
-        <item itemvalue="JUnit.LoginUserTest.loginUserWithWrongEmail" />
+        <item itemvalue="JUnit.GetOrderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710399108841</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Третий коммит">
+      <created>1710400057639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710400057639</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +216,9 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="Репорт аллюр коммит" />
     <MESSAGE value="Второй коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="Второй коммит" />
+    <MESSAGE value="Третий коммит" />
+    <MESSAGE value="Исправлен  нейминг пакетов, случаёно удалён и добавлен назад класс Endpoints" />
+    <MESSAGE value="Исправлен нейминг покетов, удалён и возвращён класс Endpoints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлен нейминг покетов, удалён и возвращён класс Endpoints" />
   </component>
 </project>

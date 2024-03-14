@@ -2,7 +2,7 @@ package user;
 
 import data.User;
 
-import static Utils.Util.randomString;
+import static utils.Util.randomString;
 
 public class UserGenerator {
     public static User getRandomUser() {

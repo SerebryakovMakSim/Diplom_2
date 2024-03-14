@@ -1,4 +1,4 @@
-package Utils;
+package utils;
 
 public class Endpoints {
     public static final String REGISTER_USER_API = "api/auth/register";
